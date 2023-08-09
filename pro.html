@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>HMS</title>
+    <style>
+       
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="burger">
+                <div class="layer1"></div>
+                <div class="layer1"></div>
+                <div class="layer1"></div>
+            </div>
+            <div class="logo">
+                <span class="logo-text"><i class="fa fa-shoes"style="margin-right:0.1em">HMS</i><span font-size: 1.1em;"></span> </span>
+            </div>
+            <div class="menubar">
+                <ul class="list">
+                    <li class="list-items"><a href="#">Home</a></li>
+                    <li class="list-items"><a href="#">Services</a></li>                
+                    <li class="list-items"><a href="#">About US</a></li>
+                    <li class="list-items"><a href="#">Contact US</a></li>
+                </ul>
+            </div>
+             
+           
+          </nav>
+    </header>
+    <section class="section1">
+        <div class="banner">
+          <h1>FIND YOUR CONCENT HERE!!</h1>
+          <button id="showImagesButton" onclick="myFunction()">CLICK ME!</button>
+         
+    
+    <div id="imageContainer">
+        <img src="226.jpg" alt="Image 1" class="image-circle">
+        <img src="226.jpg" alt="Image 2" class="image-circle">
+    </div>
+     
+        
+          <script>
+          function myFunction() {
+            location.replace("")
+          }
+
+          const showImagesButton = document.getElementById('showImagesButton');
+        const imageContainer = document.getElementById('imageContainer');
+        
+        showImagesButton.addEventListener('click', function() {
+            imageContainer.style.display = 'flex';
+        });
+          
+          </script>
+         
+        </div>
+
+        
+        
+       
+
+        
+
+       
+    
+        
+    
+</body>
+</html>
